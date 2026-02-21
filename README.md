@@ -6,9 +6,19 @@ durable-wait.py
 
 Simple durable function demo with wait functionality 
 
+Testing event: 
+{
+  "orderId": "123456"
+}
+
 paralell-lambda.py
 
 Durable function with paralell steps 
+
+Testing event: 
+{
+  "orderId": "123456"
+}
 
 map-lambda.py
 
