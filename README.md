@@ -57,3 +57,9 @@ testing event:
   "callback_id": ".... ", //get from previous step 
   "status": "approve"
 }
+
+Execution Role for the lambda needs these: 
+AWSLambdaBasicDurableExecutionRolePolicy
+AWSLambdaBasicExecutionRole
+lambda:SendDurableExecutionCallbackSuccess
+lambda:SendDurableExecutionCallbackFailure
